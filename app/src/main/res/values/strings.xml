@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="instruction_for_use_app">Instruction for use app</string>
+    <string name="welcome">Welcome!</string>
+    <string name="login_to_shoe_store">login to shoe store</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="welcome_to_shoe_store">Welcome to Shoe Store</string>
+    <string name="welcome_to_shoe_store_app_you_will_go_to_the_next_page_click_on_next">Welcome to shoe store app, you will go to the next page, click on (next)</string>
+    <string name="next">next</string>
+    <string name="errorlabel">Please enter all fields!</string>
+
+    <string name="in_next_screen_it_shows_a_list_of_shoes_in_the_inventory_to_add_shoe_in_the_inventory_press_the_button">In next screen, it shows a list of shoes in the inventory. To add shoe in the inventory, press the \'+\' button.</string>
+</resources>
