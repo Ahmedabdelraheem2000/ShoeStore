@@ -23,7 +23,6 @@ class ShoeListFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        activity!!.supportFragmentManager.popBackStack(R.id.shoeListFragment,R.id.loginFragment)
 
         binding = DataBindingUtil
             .inflate(inflater, R.layout.fragment_shoe_list, container, false)
