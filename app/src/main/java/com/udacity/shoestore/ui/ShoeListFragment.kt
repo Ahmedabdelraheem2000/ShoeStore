@@ -25,7 +25,7 @@ class ShoeListFragment : Fragment() {
     ): View? {
 
          binding = DataBindingUtil
-            .inflate(inflater, R.layout.fragment_instructions, container, false)
+            .inflate(inflater, R.layout.fragment_shoe_list, container, false)
 
         viewModel.shoeList.observe(viewLifecycleOwner) {
             binding.shoeList.removeAllViews()

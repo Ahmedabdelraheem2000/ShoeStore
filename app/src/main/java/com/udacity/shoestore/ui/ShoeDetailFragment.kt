@@ -25,7 +25,7 @@ class ShoeDetailFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val binding: FragmentShoeDetailBinding = DataBindingUtil
-            .inflate(inflater, R.layout.fragment_instructions, container, false)
+            .inflate(inflater, R.layout.fragment_shoe_detail, container, false)
 
         viewModel.resetNewShoe()
         binding.viewModel = viewModel
