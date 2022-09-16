@@ -58,6 +58,9 @@
         <action
             android:id="@+id/action_shoeDetailFragment_to_shoeListFragment"
             app:destination="@id/shoeListFragment" />
+        <action
+            android:id="@+id/action_shoeDetailFragment_to_shoeListFragment2"
+            app:destination="@id/shoeListFragment" />
     </fragment>
 
 </navigation>

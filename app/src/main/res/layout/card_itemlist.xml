@@ -7,7 +7,7 @@
     app:cardCornerRadius="10dp"
     android:layout_height="wrap_content">
 
-
+    <!-- constraint layout is used to that it can be extended to more complex UI in the future -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:padding="15dp"

@@ -4,6 +4,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+        <variable
+            name="welcomeViewModel"
+            type="com.udacity.shoestore.screans.Welcome_Fragment" />
+    </data>
+
     <!-- constraint layout is used to that it can be extended to more complex UI in the future -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

@@ -8,7 +8,7 @@
             name="welcomeViewModel"
             type="com.udacity.shoestore.screans.Welcome_Fragment" />
     </data>
-
+    <!-- constraint layout is used to that it can be extended to more complex UI in the future -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
@@ -16,7 +16,6 @@
         android:padding="15dp"
         tools:context=".screans.Welcome_Fragment">
 
-        <!-- TODO: Update blank fragment layout -->
 
         <TextView
             android:id="@+id/welcomeText"
